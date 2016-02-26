@@ -1,44 +1,23 @@
 body{
-	background:#032e58;
-	font-family:arial;
-	margin:0;
+	background:url("img/indexbg.jpg") no-repeat center top scroll;
+background-size: 100% auto;
+padding-bottom: 50%;
 }
-h1{
-	color: #82befb;
-	background-color:#032e58;
-	font-size:50px;
-    top: 1px;
-    width: 100%;
-	padding:1px;
+
+.bd{
+	color:#99ccff;
+	font-family:arial;
+	font-size: 25px;
 	text-align: center;
 }
-p{
-	background-color:#666;
-	padding:10px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-}
+.row{
 
-li {
-    float: left;
-	 border-right: 1px solid #bbb;
 }
 
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
+footer{
+	clear:both;
+	font-family:arial;
+	text-align: center;
+	
 }

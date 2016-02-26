@@ -1,23 +1,73 @@
 <!doctype html>
-<html>
+<html class="main">
 	<head>
 		<title>Ralph Pereira</title>
-		<link href="style/main.css" rel = "stylesheet"/>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  		<link href="style/main.css" rel = "stylesheet"/>
 	</head>
-	
 	<body>
-	<h1>
-		Knowledge is never a weakness 
-	</h1>
-	
-		<ul>
-		<li><a href="index.html">Main Page </a></li>
-		<li><a href="about.html">About me </a></li>
-		<li><a href="index.html">Contact Info </a></li>
-		<li><a href="about.html">Fitness </a></li>
-		<li><a href="index.html">Programming </a></li>
-		<li><a href="about.html">Test Page </a></li>
-	</ul>
+	<header>		
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">
+			  <img src="img/WebsiteLogo.png" alt="img/WebsiteLogo.png">
+			  </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="about.html">Contact</a></li>
+				<li role="separator" class="divider"></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Web Development</a></li>
+					<li><a href="#">Application Development</a></li>
+					<li><a href="#">Arduno Development</a></li>
+					<li><a href="#">Game Development</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fitness <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Product Reviews</a></li>
+					<li><a href="#">Beginner Advice</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="https://www.youtube.com/user/Prophetelf">YouTube</a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	<div class="row">
+		<div class="bd col-sm-12 col-xs-12">
+			
+		</div>
+		
+	</div>
+	<footer>
+		Created by Ralph Pereira.
+	</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
 	</body>
 	
 </html>
