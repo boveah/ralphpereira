@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   		<link href="style/main.css" rel = "stylesheet"/>
 	</head>
-	<body>
+	<body class="main">
 	<header>		
 		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
@@ -28,7 +28,7 @@
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
 				<li><a href="about.html">About</a></li>
-				<li><a href="about.html">Contact</a></li>
+				<li><a href="contact.html">Contact</a></li>
 				<li role="separator" class="divider"></li>
 				<li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming <span class="caret"></span></a>
@@ -55,28 +55,39 @@
 		</nav>
 	</header>
 	<div class="row">
-		<div class="bd col-sm-12 col-xs-12">
-				<h1>Hello</h1>
+		<div id="div1"class="bd col-sm-12 col-xs-12">
+				<h1 class="hd1">Welcome to my website</h1>
 		</div>
 		
 	</div>
-	<div class="row">
-		<div class="bd col-sm-4 col-xs-12">
-			test
+	<div id="hidden" style="display:none">
+		<div class="row">
+			<div class="bd col-sm-4 col-xs-12">
+				<br>
+			</div>
+			<div class="bd col-sm-4 col-xs-12" style="padding:0px 20px 0px 30px;">
+				Trial
+				<br>
+			</div>
+			<div class="bd col-sm-4 col-xs-12">
+				<br>
+			</div>
+			
 		</div>
-		<div class="bd col-sm-4 col-xs-12">
-			test
+		<div class="bd col-sm-12 col-xs-12" style="text-align:center;">
+			
+			<a href="about.html" class="btn btn-primary" role="button"style="position:absolute;">About me</a>
+			<br><br><br><br><br>
+			</div>
 		</div>
-		<div class="bd col-sm-4 col-xs-12">
-				test
-		</div>
-		
-	</div>
+	<div class="footer navbar-fixed-bottom">
 	<footer>
 		Created by Ralph Pereira.
 	</footer>
+	</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/effects.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		

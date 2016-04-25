@@ -1,25 +1,58 @@
 body{
 	background:#032e58;
 	font-family:arial;
-	width:100%;
-	padding-bottom: 50%;
+	width: 100%;
+	
 }
 
+.hd1{
+	color:#b1b1cd;
+	background-color:#e0e0eb;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size:50px;
+	font-size: 4.9vmax;
+	text-align: center;
+	margin: 0% 20% 2% 20%;
+}
+.hd3{
+	color:#b3c6ff;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size:27px;	
+	font-size: 2.9vmax;
+	text-align: center;
+}
 .bd{
 	color:#99ccff;
-	font-family:arial;
-	font-size: 25px;
-	text-align: center;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 19px;
+	font-size: 1.9vmax;
+	text-align: left;
 }
-.row{
-
+img{
+	padding:0px 20px 0px 30px;
+	
 }
-
-
 footer{
 	background:#a3a3c2;
-	clear:both;
 	font-family:arial;
-	text-align: center;
+	text-align: center;	
+	position: relative;
+	clear:both;
 	
+}
+li{
+	
+	
+}
+.main{
+	background: url('../img/indexbg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+    padding: 0px 15px 0px 15px;
+    text-align: left;
 }
